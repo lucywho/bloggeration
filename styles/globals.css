@@ -3,6 +3,7 @@
     --main-light: #dbd6d2;
     --alt-dark: #330a1d;
     --alt-light: #ffd60a;
+    --highlight: #6f73d2;
 }
 
 html,
@@ -27,9 +28,11 @@ a {
 .strapline {
     width: 100%;
     font-size: 3rem;
+    font-weight: bold;
     text-align: center;
     padding: 5px 0;
-    border-bottom: var(--main-light) 2px solid;
+    color: var(--highlight);
+    border-bottom: var(--highlight) 2px solid;
 }
 
 @media (prefers-color-scheme: dark) {
