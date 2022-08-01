@@ -11,12 +11,12 @@ export default function Home({ posts }) {
                 {posts.map((post, index) => (
                     <div
                         key={index}
-                        className="mb-10 p-8 bg-white border border-gray-200 rounded-2xl shadow-sm flex flex-col"
+                        className="mb-10 p-8 bg-gray-200 border border-gray-200 rounded-2xl shadow-sm flex flex-col"
                     >
-                        <p className="mb-6 text-gray-400 uppercase text-sm">
+                        <p className="mb-6 text-gray-500 uppercase text-sm">
                             {new Date(post.publishedAt).toDateString().slice(4)}
                         </p>
-                        <h3 className="text-3xl font-semibold text-gray-900">
+                        <h3 className="text-3xl font-semibold text-blue-900">
                             {post.title}
                         </h3>
                     </div>
