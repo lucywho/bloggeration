@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { client } from "../../lib/sanity"
+import { PortableText } from "@portabletext/react"
 
 export default function Post({ post }) {
     return (
@@ -19,7 +20,7 @@ export default function Post({ post }) {
                         <p className="mb-6 text-gray-400 uppercase text-sm">
                             {new Date(post.publishedAt).toDateString().slice(4)}
                         </p>
-                        <p>body</p>
+                        <PortableText value={post.body} />
                     </div>
                 </div>
             </div>
