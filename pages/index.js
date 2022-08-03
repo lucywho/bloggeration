@@ -5,7 +5,7 @@ export default function Home({ posts }) {
     return (
         <div className="py-8">
             <h1 className="mt-10 text-center text-3xl mb-10 font-extrabold tracking-tight">
-                Welcome to my blog
+                Welcome to this test blog
             </h1>
 
             <div className="mt-20 mx-auto text-center max-w-3xl px-10">
