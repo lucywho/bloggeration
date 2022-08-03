@@ -7,8 +7,8 @@ export default function Post({ post }) {
         <>
             <div className="py-8">
                 <Link as="/" href={"/"}>
-                    <a className="block text-center w-fit pb-1 mx-auto border-b-2 border-gray-200 ">
-                        &#8592; Back
+                    <a className="block text-center w-fit pb-1 px-1 mx-auto border-b-2 border-gray-200 font-bold flex-row justify-center">
+                        &lt; &lt; Back
                     </a>
                 </Link>
 
